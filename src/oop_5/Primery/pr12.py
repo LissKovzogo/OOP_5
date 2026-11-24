@@ -1,0 +1,4 @@
+from typing import Literal
+
+def set_status(status: Literal["new", "in_progress", "done"]) -> None:
+    print(f"Текущий статус: {status}")
